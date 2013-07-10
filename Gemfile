@@ -16,6 +16,11 @@ end
 
 gem 'jquery-rails'
 
+group :production do
+  gem 'pg'  
+end
+
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
